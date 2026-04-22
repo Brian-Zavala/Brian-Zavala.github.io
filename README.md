@@ -6,7 +6,7 @@ This is the source repository for my Computer Science capstone ePortfolio, produ
 
 ## What's in the portfolio
 
-- **One artifact, three enhancements.** I selected a single full-stack application — *Travlr Getaways*, originally built in CS 465 — and enhanced it across three computer science categories, each demonstrating different skills and course outcomes.
+- **One artifact, three enhancements.** I selected a single full-stack application "*Travlr Getaways*", originally built in CS 465, and enhanced it across three computer science categories, each demonstrating different skills and course outcomes.
   - Software Design and Engineering
   - Algorithms and Data Structures
   - Databases
