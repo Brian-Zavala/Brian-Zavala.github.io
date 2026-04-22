@@ -6,7 +6,7 @@ subtitle: Computer Science Capstone ePortfolio · Southern New Hampshire Univers
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: true
   more_info: >
     <p>B.S. Computer Science</p>
