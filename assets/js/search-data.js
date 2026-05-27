@@ -21,6 +21,11 @@ ninja.data = [{
           description: "A walkthrough of the existing Travlr Getaways codebase and the planned enhancements across software design, algorithms and data structures, and databases.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_code_review/";
+            },},{id: "projects-software-design-and-engineering",
+          title: 'Software Design and Engineering',
+          description: "Six enhancements to the Travlr Getaways MEAN-stack application that tighten the boundary between the public site, the admin SPA, and the API: a functional HttpInterceptor, environment-based Angular configuration, real user-facing error feedback, hardened CORS, and the removal of a deprecated HTTP client.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_software_design/";
             },},{
         id: 'social-email',
         title: 'email',
