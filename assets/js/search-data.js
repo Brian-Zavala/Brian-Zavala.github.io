@@ -9,14 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "projects",
-          description: "Enhanced artifacts demonstrating growth across three computer science categories — software design and engineering, algorithms and data structures, and databases.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{
+  },{id: "projects-code-review",
+          title: 'Code Review',
+          description: "A walkthrough of the existing Travlr Getaways codebase and the planned enhancements across software design, algorithms and data structures, and databases.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_code_review/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
