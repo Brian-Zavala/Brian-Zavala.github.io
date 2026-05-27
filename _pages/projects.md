@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Enhanced artifacts demonstrating growth across three computer science categories: software design and engineering, algorithms and data structures, and databases.
+description: "Enhanced artifacts demonstrating growth across three computer science categories: software design and engineering, algorithms and data structures, and databases."
 nav: true
 nav_order: 1
 display_categories: [work]
