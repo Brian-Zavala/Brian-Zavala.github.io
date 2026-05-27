@@ -2,6 +2,7 @@
 layout: page
 title: Code Review
 description: A walkthrough of the existing Travlr Getaways codebase and the planned enhancements across software design, algorithms and data structures, and databases.
+img: assets/img/code-review-thumb.jpg
 importance: 1
 category: work
 github: https://github.com/Brian-Zavala/CS-465
