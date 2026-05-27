@@ -26,6 +26,11 @@ ninja.data = [{
           description: "Six enhancements to the Travlr Getaways MEAN-stack application that tighten the boundary between the public site, the admin SPA, and the API: a functional HttpInterceptor, environment-based Angular configuration, real user-facing error feedback, hardened CORS, and the removal of a deprecated HTTP client.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_software_design/";
+            },},{id: "projects-algorithms-and-data-structures",
+          title: 'Algorithms and Data Structures',
+          description: "Five enhancements to the Travlr Getaways application that move work off the database and into the right data shapes: server-side pagination, an indexed single-document lookup, a price-field type migration from string to number, a BehaviorSubject-backed cache in the Angular admin, and a hardened JWT decode path.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_algorithms/";
             },},{
         id: 'social-email',
         title: 'email',
