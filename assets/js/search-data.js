@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-self-assessment",
-          title: "self-assessment",
-          description: "A professional self-assessment introducing my work across the CS-499 Capstone and how it prepares me for a full-stack web developer role.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/self-assessment/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "projects",
           description: "Enhanced artifacts demonstrating growth across three computer science categories: software design and engineering, algorithms and data structures, and databases.",
           section: "Navigation",
