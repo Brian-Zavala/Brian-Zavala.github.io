@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-self-assessment",
+          title: "self-assessment",
+          description: "A professional self-assessment introducing my work across the CS-499 Capstone and how it prepares me for a full-stack web developer role.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/self-assessment/";
+          },
+        },{id: "nav-projects",
           title: "projects",
           description: "Enhanced artifacts demonstrating growth across three computer science categories: software design and engineering, algorithms and data structures, and databases.",
           section: "Navigation",
@@ -31,6 +38,11 @@ ninja.data = [{
           description: "Five enhancements to the Travlr Getaways application that move work off the database and into the right data shapes: server-side pagination, an indexed single-document lookup, a price-field type migration from string to number, a BehaviorSubject-backed cache in the Angular admin, and a hardened JWT decode path.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_algorithms/";
+            },},{id: "projects-databases",
+          title: 'Databases',
+          description: "Six enhancements to the Travlr Getaways data and authentication layer: a redesigned user schema, a migration from PBKDF2 to bcrypt, refresh tokens on a separate signing secret, a startup configuration validator, server-side input validation, and an API specification a new developer can actually read.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_databases/";
             },},{
         id: 'social-email',
         title: 'email',
