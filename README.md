@@ -12,19 +12,18 @@ This is the source repository for my Computer Science capstone ePortfolio, produ
   - Databases
 - **Code review video.** A walkthrough of the existing code, its weaknesses, and the planned enhancements.
 - **Narratives.** Reflections on each enhancement explaining what was learned, the challenges faced, and how the work addresses specific course outcomes.
-- **Professional self-assessment.** A reflection on the capstone and the Computer Science program as a whole, presented as the introduction to the portfolio.
+- **Professional self-assessment.** A reflection on the capstone and the Computer Science program as a whole. It is the first thing on the landing page, serving as the introduction to the portfolio.
 
 ## Repository layout
 
 This is a Jekyll site deployed automatically via GitHub Actions on push to `main`. The built output is published to the `gh-pages` branch and served by GitHub Pages.
 
 ```
-_pages/        Landing page and top-level pages
-_projects/     One Markdown file per artifact (original + each enhancement)
+_pages/        Landing page (about + self-assessment) and the projects index
+_projects/     One Markdown file per entry: code review plus the three enhancements
+_includes/     Shared snippets, including the self-assessment body
 _data/         Social links, CV data, etc.
-_news/         Optional announcements
-_bibliography/ Unused for this portfolio
-assets/        Images, PDFs, and other static assets
+assets/        Images and other static assets
 _config.yml    Site-wide settings (title, author, URL, etc.)
 ```
 
