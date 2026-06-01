@@ -176,7 +176,9 @@ private decodePayload(token: string | null): any | null {
 
 ## Reflection
 
-The pattern across all five changes is that the original code worked correctly on the seed dataset and would have failed at scale. That is the most common shape of an algorithms-and-data-structures problem in a real application: not a missing algorithm, but a query, a type, or a fetch pattern that was the right call at six rows and the wrong call at six thousand. Walking through these one at a time in the code review and then fixing them on a single branch left the application both faster on the small data it has and capable of handling much more.
+What stuck with me here is that the original code was not wrong on the data it actually had. Six trips load instantly whether you paginate or not, and a string price displays fine right up until you try to sort by it. The problems only appear when you picture the collection growing, which is the one situation a class assignment with seed data never forces you to confront.
+
+The `perPerson` migration was the messiest part. Changing the type in the schema is a single line, but the same change has to reach the seed JSON, the Angular model, two forms, and the trip card, and if you miss one the app breaks in a way that does not point back at the type. That is the change I would write tests around if I did it again. I am comfortable saying this work meets the algorithms and data structures outcome. The piece I would not overclaim is formal Big-O analysis: I reasoned about these changes in practical terms rather than writing the complexity out, so that part of the outcome is only partial.
 
 ## Source
 

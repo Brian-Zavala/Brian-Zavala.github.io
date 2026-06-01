@@ -4,10 +4,12 @@ title: projects
 permalink: /projects/
 description: "Enhanced artifacts demonstrating growth across three computer science categories: software design and engineering, algorithms and data structures, and databases."
 nav: true
-nav_order: 1
+nav_order: 2
 display_categories: [work]
 horizontal: false
 ---
+
+Each card below is one piece of the same artifact, the Travlr Getaways MEAN-stack application. The code review came first; the three enhancement pages that follow it cover software design and engineering, algorithms and data structures, and databases. Every enhancement page opens with a short narrative, shows before-and-after code for the changes small enough to display, and links to the matching branch on GitHub so you can read the full diff.
 
 <!-- pages/projects.md -->
 <div class="projects">

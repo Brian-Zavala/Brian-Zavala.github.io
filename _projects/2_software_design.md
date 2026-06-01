@@ -129,7 +129,9 @@ The Module 3 work was planned against two of the program outcomes:
 
 ## Reflection
 
-The lesson from this enhancement pass was that "software design" in a real codebase is less about exotic patterns and more about removing the small accumulations that make a project hard to reason about. The pre-enhancement code was not broken, but every authenticated request manually rebuilt its header, the public site depended on a package that had been dead for five years, and the API trusted any origin. None of those would block a feature from working, and that is exactly why they are easy to leave alone. Walking through them in the code review and then fixing them in one focused branch left the application both smaller and easier to extend, which is what the category is supposed to demonstrate.
+Going in, I expected "software design" to mean adding something clever. Most of this pass was the opposite. I deleted a dead dependency, moved a hard-coded URL into a config file, and closed a CORS line that had been wide open. None of it changes what the app does for a user, which is probably why all of it had survived untouched since CS-465. The interceptor was the one piece that took real trial and error: the current Angular docs show the functional style and a lot of the older tutorials still show the class style, and mixing the two quietly breaks the auth header.
+
+The code review I recorded earlier in the capstone is what kept this focused. I had already called out the deprecated `request` package and the open CORS on camera, so by the time I sat down to enhance I was working from a short list instead of re-reading the whole project. If there is an outcome I only partly met here, it is the collaboration one. I added clearer error feedback and configuration, but the real documentation work did not land until the database pass.
 
 ## Source
 
